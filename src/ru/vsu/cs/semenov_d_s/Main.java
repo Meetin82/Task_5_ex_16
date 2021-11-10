@@ -25,7 +25,7 @@ public class Main {
     }
 
     private static void printSpacesBeforeFigure(int h, int i) {
-        for (int j = h - i; j < h; j++){
+        for (int j = h - i; j < h; j++) {
             System.out.print(" ");
         }
     }
