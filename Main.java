@@ -15,9 +15,9 @@ public class Main {
     }
 
     private static void printFigure(int h) {
-        for (int i = 0; i < h; i++){
+        for (int i = 0; i < h; i++) {
             printSpacesBeforeFigure(h, i);
-            for (int k = h; k > i; k--){
+            for (int k = h; k > i; k--) {
                 printSpaceOrBackSlash(k);
             }
             System.out.println();
@@ -25,13 +25,13 @@ public class Main {
     }
 
     private static void printSpacesBeforeFigure(int h, int i) {
-        for (int j = h - i; j < h; j++){
+        for (int j = h - i; j < h; j++) {
             System.out.print(" ");
         }
     }
 
     private static void printSpaceOrBackSlash(int k) {
-        if (k % 2 == 0){
+        if (k % 2 == 0) {
             System.out.print(" ");
         } else {
             System.out.print("\\");
