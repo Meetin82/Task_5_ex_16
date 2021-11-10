@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int h = readNum();
-        if (isNumberPositive(h)){
+        if (isNumberPositive(h)) {
             System.out.print("The number does not match the condition.");
             return;
         }
@@ -14,7 +14,7 @@ public class Main {
         printFigure(h);
     }
 
-    private static void printFigure(int h){
+    private static void printFigure(int h) {
         for (int i = 0; i < h; i++){
             printSpacesBeforeFigure(h, i);
             for (int k = h; k > i; k--){
@@ -24,13 +24,13 @@ public class Main {
         }
     }
 
-    private static void printSpacesBeforeFigure(int h, int i){
+    private static void printSpacesBeforeFigure(int h, int i) {
         for (int j = h - i; j < h; j++){
             System.out.print(" ");
         }
     }
 
-    private static void printSpaceOrBackSlash(int k){
+    private static void printSpaceOrBackSlash(int k) {
         if (k % 2 == 0){
             System.out.print(" ");
         } else {
@@ -42,7 +42,7 @@ public class Main {
         return num < 1;
     }
 
-    private static int readNum(){
+    private static int readNum() {
         System.out.print("Enter h (h >= 1): ");
         Scanner scn = new Scanner(System.in);
         return scn.nextInt();
