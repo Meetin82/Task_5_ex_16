@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int h = readNum();
-        if (checkNumberPositive(h)){
+        if (isNumberPositive(h)){
             System.out.print("The number does not match the condition.");
             return;
         }
@@ -38,7 +38,7 @@ public class Main {
         }
     }
 
-    private static boolean checkNumberPositive(int num) {
+    private static boolean isNumberPositive(int num) {
         return num < 1;
     }
 
