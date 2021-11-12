@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int h = readNum();
+        
         if (isNumberPositive(h)) {
             System.out.print("The number does not match the condition.");
             return;
