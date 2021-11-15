@@ -22,6 +22,7 @@ public class Main {
             for (int k = h; k > i; k--) {
                 printSpaceOrBackSlash(k);
             }
+            
             System.out.println();
         }
     }
