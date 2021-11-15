@@ -18,6 +18,7 @@ public class Main {
     private static void printFigure(int h) {
         for (int i = 0; i < h; i++) {
             printSpacesBeforeFigure(h, i);
+            
             for (int k = h; k > i; k--) {
                 printSpaceOrBackSlash(k);
             }
