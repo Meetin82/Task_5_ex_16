@@ -8,7 +8,7 @@ public class Main {
         int h = readNum();
         
         if (isNumberPositive(h)) {
-            System.out.print("The number does not match the condition.");
+            System.out.print("The number does not match the condition. The number must be greater than or equal to 1.");
             return;
         }
 
